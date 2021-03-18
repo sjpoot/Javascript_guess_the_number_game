@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <script type="text/javascript" src="./guess_number.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <h2>Welkom bij "Guess the number"!</h2>
+    </header>
+    <main class="game">
+        <h3>Vul hier je naam in om het spel te beginnen.</h3>
+        <form action="#" method="dialog" onsubmit="return validateName();">
+            <input type="text" name="naam" id="naam"><br><br>
+        </form><br><br>
+        <form action="#" method="dialog" onsubmit="return numberRandom()">
+            <input type="submit" value="Klik hier om spelen. Have FUN!!">
+        </form>
+    </main>
+</body>
+
+</html>
